@@ -37,7 +37,6 @@ pipeline{
 
                         docker push \
                           $DOCKERHUB_USERNAME/$IMAGE_NAME:$IMAGE_TAG
-
                         docker logout
                     '''
                 }
